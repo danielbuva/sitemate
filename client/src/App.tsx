@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-
 import {
   QueryClient,
   QueryClientProvider,
@@ -13,8 +11,6 @@ import React, { useState } from "react";
 const queryClient = new QueryClient();
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <QueryClientProvider client={queryClient}>
       <Issues />
